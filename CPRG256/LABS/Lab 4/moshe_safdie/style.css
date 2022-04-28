@@ -1,0 +1,71 @@
+body, h1, h2, h3, p{
+    color: violet;
+    font-family: "Architects Daughter";
+}
+
+
+
+
+body {
+    background-image: url("blue.jpg");
+
+    opacity: 100%;
+
+}
+
+h1 {
+
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+h2 {
+
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+.test {
+    float: right;
+    border-style: solid;
+    border-width: 5px;
+    padding-left: 5px;
+    display: block;
+    margin: 35px;
+
+    max-width: 100%;
+}
+
+.image2 {
+    float: left;
+    /*width: 300px;*/
+    padding-left: 30px;
+    /*border-style: solid;*/
+    border-image-width: 5px;
+
+
+
+}
+.img3 {
+
+    padding-top:17px;
+    padding-right: 100px;
+}
+.img4{
+    PADDING-RIGHT: 50PX
+}
+
+/*.big{*/
+/*    text-align: center;*/
+/*    font-size: 18px;*/
+/*}*/

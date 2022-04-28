@@ -1,0 +1,129 @@
+<!--LOGO IMG SRC: https://www.google.com/search?q=cafe+europa&sxsrf=APq-WBtVq2UypZkQsuFiwA0KkPFAPiSW0A:1646329727344&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj889KUwKr2AhVkDzQIHaTAAD4Q_AUoAnoECAIQBA&biw=1536&bih=799&dpr=1.25#imgrc=jjZFYx6dUxaH3M-->
+<!--BACKFGROUND IMG SRC: https://www.google.com/search?q=nice+backgrounds+colors&sxsrf=APq-WBvMgJbCMVfiWdCxsFzWyY1xBdOisQ:1646330300294&tbm=isch&source=iu&ictx=1&vet=1&fir=8wHLPCimtEil0M%252CH4Ate_jyKoHhiM%252C_%253BVz2GID4bU8-9yM%252CH4Ate_jyKoHhiM%252C_%253BQsh9hIbCdePNbM%252CH4Ate_jyKoHhiM%252C_%253BqLrHcF97d1tG6M%252CKMvU6UkiDC24LM%252C_%253Bo7N7UspQM0sg-M%252CH4Ate_jyKoHhiM%252C_%253BuOA2_CB2m5409M%252Ci14hdT3agI4WfM%252C_%253BmLdMn3WPILqAHM%252CyWReHv4JTOkkmM%252C_%253BfMAe6IMgbFCMWM%252CwQYwXI_tcigNnM%252C_%253BWmiPl8ipqPe0oM%252CH4Ate_jyKoHhiM%252C_%253BxlZ4Qas9i_6f1M%252CZVl-xjTrLgIAdM%252C_%253BU15hhqOxO9SrvM%252CwQYwXI_tcigNnM%252C_%253BtBMmGCJCC6G66M%252Co3bdqRoNF7lyaM%252C_%253BQp_3KmXK0p8D4M%252CH4Ate_jyKoHhiM%252C_%253BZvPhr9bf0MaARM%252CwQYwXI_tcigNnM%252C_%253Bvz45_vsepyrb9M%252CKMvU6UkiDC24LM%252C_&usg=AI4_-kStqWG6zdj16QfGkqwUSDpg5fHbLA&sa=X&ved=2ahUKEwiQ-eylwqr2AhUrGDQIHftECNsQ9QF6BAgxEAE#imgrc=Vz2GID4bU8-9yM-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe</title>
+    <link href="StyleCafe.css" rel="stylesheet" text="text/css"/>
+
+    <script src="cafeScript.js"></script>
+
+
+</head>
+<body>
+<div>
+    <h1>Cafe Europa!</h1>
+
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" value="" pattern="[A-Za-z -]+$}"
+           maxlength="25"
+           placeholder="Enter your name here" required>
+</div>
+
+
+<div>
+    <label for="phone_number">Phone Number:</label>
+    <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"
+           placeholder="000-000-0000" required>
+</div>
+
+<div>
+    <label for="pickup-time">Pick up order time:</label>
+
+    <input type="datetime-local" id="pickup-time"
+           name="pickup-time" value="2018-06-12T19:30"
+           min="2018-06-07T00:00" max="2018-06-14T00:00">
+</div>
+
+<img src="download.png">
+<!--<h2>Food Menu</h2>-->
+<form>
+    <div class="order">
+        <h3>Neapolitan Style Pizza:</h3>
+
+        <ul>
+            <li>
+                <span class="header">Margherita $12.00</span>
+                <input class="qty" type="number" name="Margherita" id="Margherita" min="0">
+            </li>
+
+            <li>
+                <span class="header">Quattro Formaggi $12.50</span>
+                <input class="qty" type="number" name="Quattro-Formaggi" id="Quattro-Formaggi" min="0">
+            </li>
+
+            <li>
+                <span class="header">Capricciosa $13.00</span>
+                <input class="qty" type="number" name="Capricciosa" id="Capricciosa" min="0">
+            </li>
+
+
+        </ul>
+        <!--        value="Schnitzel"-->
+
+
+        <h3>Sandwich Choices:</h3>
+        <ul>
+            <li>
+                <span class="header">Schnitzel $8.50</span>
+                <input class="qty" type="number" name="Schnitzel" id="Schnitzel" min="0">
+            </li>
+
+
+            <li>
+                <span class="header">Mixed Grill $9.50</span>
+                <input class="qty" type="number" name="Mixed-Grill" id="Mixed-Grill" min="0">
+            </li>
+
+            <li>
+                <span class="header">Big Beef on a Bun $10.00</span>
+                <input class="qty" type="number" name="Beef-Bun" id="Beef-Bun" min="0">
+            </li>
+
+        </ul>
+
+
+        <h3>Beverages:</h3>
+        <ul>
+            <li>
+                <span class="header">Coffee $2.00</span>
+                <input class="qty" type="number" name="Coffee" id="Coffee" min="0">
+            </li>
+
+
+            <li>
+                <span class="header">Latte $2.50</span>
+                <input class="qty" type="number" name="Latte" id="Latte" min="0">
+            </li>
+
+
+            <li>
+                <span class="header">Soft Drink $2.00</span>
+                <input class="qty" type="number" name="Soft-Drink" id="Soft-Drink" min="0">
+            </li>
+
+
+        </ul>
+
+    </div>
+
+    <div class="submit">
+        <ul class="checkout">
+            <br>
+            <input class="check" type="submit" value="Send" onClick="checkout(); return false;">
+            <input class="check" type="reset" value="Reset">
+        </ul>
+    </div>
+</form>
+
+<h4>Your Order: </h4>
+<h2><span id="result"></span></h2>
+
+</body>
+</html>
+
+

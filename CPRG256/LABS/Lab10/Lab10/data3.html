@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>311 Service Requests</title>
+    <script src="script3.js"></script>
+    <link rel="stylesheet" href="styleIndex.css">
+
+
+</head>
+<body>
+<div id="container">
+    <h1>NYPD Complaint Data Historics</h1>
+    <div id="Search Area">
+        <span>Search By:</span>
+        <select name="searchOption" id="searchOption">
+            <option value="offense">Level of offense</option>
+            <option value="Complaint-Number"> Complaint Number</option>
+        </select>
+        <span>Input:</span>
+        <input type="text" id="input">
+    </div>
+    <div id="area">
+        <table id="table">
+            <thead>
+            <th scope="col">Level of offense</th>
+            <th scope="col">Complaint Number</th>
+            <th scope="col">Borough</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

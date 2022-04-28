@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calgary Traffic Cameras</title>
+    <script src="script2.js"></script>
+    <link rel="stylesheet" href="styleDataset.css">
+</head>
+<body>
+<div id="container">
+    <a href="dataset1.html" class="previous">&laquo; Previous</a>
+    <a href="dataset3.html" class="next">Next &raquo;</a>
+    <h1>Calgary Traffic Cameras</h1>
+    <div id="Search Area">
+        <span>Search By:</span>
+        <select name="searchOption" id="searchOption">
+            <option value="Quadrant"> Quadrant</option>
+            <option value="Address"> Address</option>
+            <option value="Camera-Num"> Camera Number</option>
+            <option value="URL"> URL</option>
+        </select>
+        <span>Input:</span>
+        <input type="text" id="input">
+    </div>
+    <div id="area">
+        <table id="table">
+            <thead>
+            <th scope="col">Quadrant</th>
+            <th scope="col">Address</th>
+            <th scope="col"> Camera Number</th>
+            <th scope="col">URL</th>
+            <th scope="col">Location</th>
+
+
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

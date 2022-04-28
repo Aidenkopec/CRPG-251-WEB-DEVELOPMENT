@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    font-family: 'Boogaloo', cursive;
+}
+
+.Container {
+    width: 80%;
+    margin: 75px auto auto;
+    padding: 2em;
+    border: 10px solid black;
+    text-align: center;
+}
+
+#table {
+    width: 80%;
+}

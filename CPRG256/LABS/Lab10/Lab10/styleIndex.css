@@ -1,0 +1,46 @@
+body {
+    background-color: #07f49e;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+#container {
+    background-color: white;
+    width: 70%;
+    margin: 100px auto auto;
+    padding: 25px;
+    border: 10px solid black;
+    text-align: center;
+}
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+#area{
+    width: 90%;
+}
+#table{
+    width: 100%;
+}
+
+#index {
+    width: 100%;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.click {
+    width: 100%;
+    font-size: 40px;
+}
+
+.click:hover {
+    background-color: #0061ff;
+    color: white;
+}

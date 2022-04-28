@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calgary Traffic Incidents</title>
+    <script src="script1.js"></script>
+    <link rel="stylesheet" href="styleDataset.css">
+</head>
+<body>
+<div id="container">
+    <a href="index.html" class="previous">&laquo; Previous</a>
+    <a href="dataset2.html" class="next">Next &raquo;</a>
+
+    <h1>Calgary Traffic Incidents</h1>
+    <div id="Search Area">
+        <span>Search By:</span>
+        <select name="searchOption" id="searchOption">
+            <option value="Incident-Info"> Incident Info</option>
+            <option value="Description"> Description</option>
+            <option value="ID"> ID</option>
+            <option value="Quadrant"> Quadrant</option>
+        </select>
+        <span>Input:</span>
+        <input type="text" id="input">
+    </div>
+    <div id="area">
+        <table id="table">
+            <thead>
+            <th scope="col"> Incident Info</th>
+            <th scope="col"> Description</th>
+            <th scope="col"> ID</th>
+            <th scope="col"> Quadrant</th>
+            <th scope="col"> Location</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!--IMG SRC - https://www.google.com/search?q=valley+farms&sxsrf=APq-WBvVwr3GOCShB8-eEQK_uevzJUDkmQ:1645207297514&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjI7LLk6on2AhUuCTQIHQFjABQQ_AUoAnoECAIQBA&biw=1920&bih=975&dpr=1#imgrc=5vCSY1uzXV1zfM-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="StyleValley.css" rel="stylesheet" text="text/css"/>
+    <script src="farmJS.js"></script>
+
+
+</head>
+<body>
+<form>
+
+
+    <div class="container">
+        <div>
+            <label for="Currentdate">Registration_date:</label>
+            <input type="date"
+                   id="Currentdate" name="Currentdate">
+
+        </div>
+
+
+        <div>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="" pattern="[A-Za-z -]+$}"
+                   maxlength="25"
+                   placeholder="Enter your name here" required>
+        </div>
+
+
+        <div>
+            <label for="Address">Address:</label>
+            <input type="text" id="Address" name="Address"
+                   placeholder="Enter Address">
+        </div>
+
+        <div>
+            <label for="pCode">Postal Code:</label>
+            <input type="text" id="pCode" name="pCode"
+                   placeholder="Enter Postal Code">
+            <!--                    pattern="[1-9][0-9]{3}\s?[a-zA-Z]{3}"-->
+        </div>
+
+
+        <div>
+            <label for="phone_type">Personal</label>
+            <input type="radio" id="phone_type" name="phone_type">
+
+            <label for="phone_type1">Business</label>
+            <input type="radio" id="phone_type1" name="phone_type">
+        </div>
+
+
+        <div>
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"
+                   placeholder="000-000-0000" required>
+        </div>
+
+
+        <div>
+            <label for="email_contact">Email Contact:</label>
+            <input type="email" id="email_contact" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                   placeholder="abc@example.com" name="email_contact" required>
+        </div>
+
+        <div>
+            <label for="ServiceOne">Delivery</label>
+            <input type="radio" id="ServiceOne" name="delivery_type"
+                   value="Delivery">
+
+            <label for="ServiceTwo">Pick up</label>
+            <input type="radio" id="ServiceTwo" name="delivery_type"
+                   value="Pick up">
+        </div>
+
+
+    </div>
+
+
+    <div class="columns">
+        <ul class="price">
+            <li class="header">Vegetable Hamper</li>
+            <li class="grey" value="30">20Kg: $30.00</li>
+
+            <li class="input"><label for="Vegtable-Hamper">Enter Quantity</label>
+                <input type="number" name="Vegtable-Hamper" id="Vegtable-Hamper" value="V-H" min="0"></li>
+        </ul>
+    </div>
+
+
+    <div class="columns">
+        <ul class="price">
+            <li class="header">Fruit Hamper</li>
+            <li class="grey">10Kg: $20.00</li>
+
+            <li class="input"><label for="Fruit-Hamper">Enter Quantity</label>
+                <input type="number" name="Fruit-Hamper" id="Fruit-Hamper" value="F-H" min="0"></li>
+        </ul>
+    </div>
+
+
+    <div class="columns">
+        <ul class="price">
+            <li class="header">Fresh Chickens</li>
+            <li class="grey">$7.00 per Chicken</li>
+            <li class="input"><label for="Fresh-Chickens">Enter Quantity</label>
+                <input type="number" name="Fresh-Chickens" id="Fresh-Chickens" value="F-C" min="0"></li>
+        </ul>
+    </div>
+
+
+    <div class="columns">
+        <ul class="price">
+            <li class="header">Pork</li>
+            <li class="grey">$5/KG</li>
+            <li class="input"><label for="Pork">Enter Quantity</label>
+                <input type="number" name="Pork" id="Pork" value="P" min="0"></li>
+        </ul>
+    </div>
+
+
+    <div class="submit">
+        <ul class="checkout">
+            <br>
+            <input class="check" type="submit" value="Send" onClick="checkout(); return false;">
+            <input class="check" type="reset" value="Reset">
+        </ul>
+    </div>
+</form>
+
+<p><img src="download.jpg" alt="Logo of valley farm" height="50px" width="50px"></p>
+<h2>Your Order: </h2>
+<h2><span id="result"></span></h2>
+
+
+</body>
+</html>

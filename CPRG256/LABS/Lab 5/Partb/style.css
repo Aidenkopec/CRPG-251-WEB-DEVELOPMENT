@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Space+Mono&display=swap');
+
+  body {
+
+      font-family: 'Architects Daughter', cursive;
+      margin-top: 10px;
+      background-color: gray;
+  }
+
+.image{
+    margin-left: 40px;
+    float: left;
+    padding-right: 20%;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+

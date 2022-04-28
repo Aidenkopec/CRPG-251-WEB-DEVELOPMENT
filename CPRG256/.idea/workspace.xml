@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f414972-5c58-4580-9af2-cbbb663be50a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/.idea/LAB1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/Validation/PartB.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/Validation/index.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/Validation/page2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/Validation/page3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/.idea/LAB1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/html one.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/src/Index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/src/cabin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/src/mountains.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/src/page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/src/page3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/parta/src/train.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/partb/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB1/partb/thankYou.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/.idea/LAB2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Photos/five.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Photos/four.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Photos/one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Photos/six.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Photos/three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Photos/two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Validation/Part a.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Validation/part b css.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/Validation/part b html.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/parta/Resume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/parta/kopec.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/parta/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB2/partb/SixPics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/.idea/LAB8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/Pics/five.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/Pics/four.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/Pics/one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/Pics/six.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/Pics/three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/Pics/two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/photo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/photo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/photo3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/photo4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/photo5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/photo6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/travelersStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/travelerslog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartA/xlmHandeler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartB/Bakery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartB/Rectangle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartB/Round.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartB/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/PartB/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/validation/part a/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/validation/part a/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/validation/part a/javaScript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/validation/part b/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/validation/part b/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB8/validation/part b/javaScript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/.idea/Lab 4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/Kauffman-Center-for-the-Performing-Arts-Kansas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/WebPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/habitat67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/moshe-safdi_bsa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/moshe_safdie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/resort-Marina-Bay-Sands-Singapore-Moshe-Safdie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/sky-habitat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4/moshe_safdie/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/.idea/Lab 5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Parta/GettyImages-868643608.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Parta/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Parta/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Partb/SixPics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Partb/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Photos/five.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Photos/four.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Photos/one.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Photos/six.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Photos/three.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Photos/two.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Validation/parta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5/Validation/partb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7/.idea/Lab 7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7/0c20f31194a669da93f41c15160ce433.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7/WildJava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7/WildRose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7/WildStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/.idea/New folder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/.idea/Lab10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/data1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/data2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/data3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/script1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/script2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/script3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10/styleIndex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Validation/Script1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Validation/Script2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Validation/Script3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Validation/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Validation/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/.idea/Lab3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/davidthompson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part a/David_Thompson1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part a/ThompsonStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part a/crescent-falls.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part a/davidThompson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part a/lake.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part a/map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part a/road.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part a/stripe-hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part b/Form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part b/efe-kurnaz-RnCPiXixooY-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part b/registrationform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/part b/william-daigneault-Cd84YdL9px8-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/validation/part a css.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/validation/part a html.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/validation/part b css.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/validation/part b html.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/.idea/Lab6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/Café Europa/Cafe Europa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/Café Europa/StyleCafe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/Café Europa/beautiful-color-gradients-backgrounds-010-winter-neva.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/Café Europa/cafeScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/Café Europa/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/Validation/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/Validation/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/.idea/Lab9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/ClientData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/Validation/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/Validation/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/Validation/javaScript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/style.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="274Rj80rFuQE3qbzOCgaCE3Q85Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f414972-5c58-4580-9af2-cbbb663be50a" name="Changes" comment="" />
+      <created>1648577504142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648577504142</updated>
+      <workItem from="1648577505251" duration="5000" />
+      <workItem from="1648596470125" duration="983000" />
+      <workItem from="1651160251824" duration="392000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

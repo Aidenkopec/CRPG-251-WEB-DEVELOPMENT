@@ -1,0 +1,25 @@
+/*Img source https://unsplash.com/photos/Cd84YdL9px8*/
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Condensed:ital@1&family=Space+Mono&display=swap');
+
+body{
+    background-image: url("william-daigneault-Cd84YdL9px8-unsplash.jpg");
+    font-family: 'Space Mono', monospace;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+   margin: auto;
+    width: 30%;
+}
+
+div{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    background: rgb(218, 190, 11);
+}

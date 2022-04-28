@@ -1,0 +1,26 @@
+body {
+    background-image: url("background/pretty-grey-background-css.jpg");
+
+
+}
+
+form {
+    padding-left: 325px;
+    margin-top: 300px;
+    width: 50%;
+    font-size: 18px;
+    color: white;
+}
+
+table.centre{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+
+}

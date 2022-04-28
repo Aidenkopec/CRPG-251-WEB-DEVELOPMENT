@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-image: url("pics/cesar-couto-pC2xOplxsVs-unsplash.jpg");
+}
+
+h2 {
+    text-shadow: 2px 2px lightcoral;
+}
+
+#logo {
+    text-align: center;
+}
+
+h2, p {
+    text-align: center;
+    color: white;
+}
+
+.slides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow {
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+}
+
+.caption {
+    color: white;
+    font-size: 18px;
+    padding: 12px 12px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.number {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+li {
+    text-decoration: none;
+}
+
+
+footer
+{
+    margin-top: 20px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .text {
+        font-size: 11px
+    }
+}

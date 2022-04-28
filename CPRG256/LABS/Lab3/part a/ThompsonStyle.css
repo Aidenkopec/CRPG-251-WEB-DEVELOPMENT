@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Space+Mono&display=swap');
+
+
+body {
+    background-image: url("stripe-hero.png");
+    color: black;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: red;
+    /*    Make it larger by 50% */
+}
+
+
+h1 {
+    font-size: 24px;
+    /*font-family: 'Architects Daughter', cursive;*/
+    font-family: 'Space Mono', monospace;
+}
+
+img {
+    size: 200px;
+
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+a:hover {
+    color: yellow;
+
+    width: 80%;
+
+}
+
+
+

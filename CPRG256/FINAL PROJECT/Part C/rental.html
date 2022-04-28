@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleRental.css">
+    <script src="scriptRental.js"></script>
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <title>Dodgy Brakes Car Rental</title>
+</head>
+<body>
+
+<div id="logo">
+    <img src="Images/59711789.jpg" style="height: 10%" alt="Logo">
+</div>
+<h1>Dodgy Brakes Car Rental</h1>
+
+<h1 id="date"></h1>
+
+<div id="Display_Boxes">
+    <div id="Client_Box">
+        <h2>Client Lookup</h2>
+        <label>First Name</label><input type="text" id="last-name">
+        <h3>Client Selector</h3>
+        <select size="28" id="Client_List">
+        </select>
+    </div>
+    <div id="Form_Box">
+        <h2>Order Details</h2>
+        <h3>Client Information</h3>
+        <form onsubmit="displayOrder(); return false;">
+            <table id="Client_Info">
+                <tr>
+                    <td>First Name:</td>
+                    <td><input class="person-info" type="text" id="first-name" disabled></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input class="person-info" type="text" id="l-name" disabled></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input class="person-info" type="tel" id="phone-number" disabled></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input class="person-info" type="text" id="address" disabled></td>
+                </tr>
+                <tr>
+                    <td>State/Province:</td>
+                    <td><input class="person-info" type="text" id="province" disabled></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input class="person-info" type="email" id="email" disabled></td>
+                </tr>
+            </table>
+            <h3>Pick Your Car</h3>
+            <table id="Car_Selector">
+                <tr>
+                    <td><img src="Images/compactCar.png" alt = "compact"></td>
+                    <td><input type="radio" name="car" id="compact" value="compact" class="person-info" disabled></td>
+                    <td>Compact Car</td>
+                    <td>$25/day</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/midSizeCar.webp" alt = "Midsize car"></td>
+                    <td><input type="radio" name="car" id="midsize" value="midsize" class="person-info" disabled></td>
+                    <td>Midsize Car</td>
+                    <td>$30/day</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/luxuryCar.jpg" alt = "Luxury Car"></td>
+                    <td><input type="radio" name="car" id="luxury" value="luxury" class="person-info" disabled></td>
+                    <td>Luxury Car</td>
+                    <td>$35/day</td>
+                </tr>
+                <tr>
+                    <td><img src="Images/truck.webp" alt = "Van/Truck"></td>
+                    <td><input type="radio" name="car" id="vantruck" value="vantruck" class="person-info" disabled></td>
+                    <td>Van/Truck</td>
+                    <td>$40/day</td>
+                </tr>
+            </table>
+            <table id="duration_table">
+                <tr>
+                    <td>Rental Duration:</td>
+                    <td><input type="number" id="duration" class="person-info" max="30" min="1" value="1" disabled></td>
+                </tr>
+            </table>
+            <h3>Accessories</h3>
+            <table id="Addons">
+                <tr>
+                    <td><input type="checkbox" id="roofrack" class="person-info" disabled></td>
+                    <td>Roof Rack</td>
+                    <td>$5/day</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="bikerack" class="person-info" disabled></td>
+                    <td>Bicycle Rack</td>
+                    <td>$5/day</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="gps" class="person-info" disabled></td>
+                    <td>GPS device</td>
+                    <td>$10/day</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="childseat" class="person-info" disabled></td>
+                    <td>Child Seat</td>
+                    <td>Free</td>
+                </tr>
+            </table>
+            <table id="buttons">
+                <tr>
+                    <td><input id="submit" class="Button" type="reset"></td>
+                    <td><input id="reset" class="Button" type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<div id="Result">
+<!--    <h2>Order Information: </h2>-->
+    <p id="Customer_Information"></p>
+    <table id="Result_Table">
+    </table>
+<!--    <a href="rental.html" class="previous">&laquo; Go Back</a>-->
+
+</div>
+</body>
+</html>

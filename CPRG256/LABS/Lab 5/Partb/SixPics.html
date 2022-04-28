@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SixPics.html</title>
+    <link href="style.css" rel="stylesheet" text="text/css"/>
+
+
+    <script>
+
+        function setTitle() {
+
+            img = document.getElementById("showthis");
+            img1 = document.getElementById("showthis1")
+            img2 = document.getElementById("showthis2")
+            img3 = document.getElementById("showthis3")
+            img4 = document.getElementById("showthis4")
+            img5 = document.getElementById("showthis5")
+
+            img.style.visibility = "visible";
+            img1.style.visibility = "visible";
+            img2.style.visibility = "visible";
+            img3.style.visibility = "visible";
+            img4.style.visibility = "visible";
+            img5.style.visibility = "visible";
+
+
+        }
+
+        function hideTitle() {
+
+            img = document.getElementById("showthis")
+            img1 = document.getElementById("showthis1")
+            img2 = document.getElementById("showthis2")
+            img3 = document.getElementById("showthis3")
+            img4 = document.getElementById("showthis4")
+            img5 = document.getElementById("showthis5")
+
+            img.style.visibility = "hidden";
+            img1.style.visibility = "hidden";
+            img2.style.visibility = "hidden";
+            img3.style.visibility = "hidden";
+            img4.style.visibility = "hidden";
+            img5.style.visibility = "hidden";
+        }
+    </script>
+
+</head>
+
+<div>
+
+    <h1>My Trip Gallary</h1>
+    <h1>Aiden Kopec</h1>
+
+</div>
+
+
+<div class="image">
+
+    <figure>
+
+        <img src="../Photos/one.jpg" width="300px" height="500" id="img1" alt="Waterfall" onmouseover="setTitle()"
+             onmouseout="hideTitle()"/>
+
+        <div id="showthis" style="visibility: hidden">
+            <figcaption>Cassidy, BC <br/>Summer Hike</figcaption>
+        </div>
+
+
+    </figure>
+
+</div>
+<!--</div>-->
+<div class="image">
+
+    <figure>
+
+        <img src="../Photos/two.jpg" width="300" height="500" alt="Ski Hill" onmouseover="setTitle()"
+             onmouseout="hideTitle()"/>
+
+        <div id="showthis1" style="visibility: hidden">
+
+            <figcaption>Sunshine Ski Village <br/>Ski day 2021</figcaption>
+        </div>
+    </figure>
+
+</div>
+
+<div class="image">
+
+    <figure>
+
+        <img id=img3 src="../Photos/three.jpg" width="300" height="500" alt="Beach with logs" onmouseover="setTitle()"
+             onmouseout="hideTitle()"/>
+
+        <div class="showthis2" style="visibility: hidden">
+
+            <figcaption>Port Renfrew, BC <br/>Beautiful hidden beach</figcaption>
+        </div>
+
+    </figure>
+
+</div>
+
+<div class="image">
+
+    <figure>
+
+        <img id=img4 src="../Photos/four.jpg" width="300" height="500" alt="Ocean view" onmouseover="setTitle()"
+             onmouseout="hideTitle()"/>
+
+        <div class="showthis3" style="visibility: hidden">
+
+            <figcaption>Victoria, BC<br/>Colwood Beach</figcaption>
+        </div>
+    </figure>
+
+</div>
+
+<div class="image">
+
+    <figure>
+
+        <img id=img5 src="../Photos/five.jpg" width="800" height="500" alt="Beach" onmouseover="setTitle()"
+             onmouseout="hideTitle()"/>
+
+        <div class="showthis4" style="visibility: hidden">
+
+            <figcaption> Tofino, BC <br/> One of the best ocean views in BC</figcaption>
+        </div>
+    </figure>
+
+</div>
+
+<div class="image">
+
+    <figure>
+
+        <img id=img6 src="../Photos/six.jpg" width="800" height="500" alt="Beach in tofino" onmouseover="setTitle()"
+             onmouseout="hideTitle()"/>
+
+        <div id="showthis5" style="visibility: hidden">
+
+            <figcaption>Tofino<br/> Surfing day</figcaption>
+        </div>
+    </figure>
+
+</div>
+
+</html>

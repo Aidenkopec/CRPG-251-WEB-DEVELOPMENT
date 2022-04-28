@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Space+Mono&display=swap');
+
+@media all {
+    body {
+        /*background-image: url("me.jpg");*/
+        background-color: skyblue;
+        /*background-repeat: no-repeat;*/
+        /*background-position: top; !* 50px 200px*!*/
+        /*background-attachment: fixed;*/
+
+
+    }
+    .imageMe{
+
+        margin-left: 610px;
+    }
+}
+
+
+ h1 {
+     font-size: 30px;
+     text-align: center;
+     /*font-family: 'Architects Daughter', cursive;*/
+     font-family: 'Space Mono', monospace;
+     letter-spacing: 5px;
+     color: gray;
+ }
+
+    .Info {
+        font-size: 12px;
+        text-align: center;
+        /*font-family: 'Architects Daughter', cursive;*/
+        font-family: 'Space Mono', monospace;
+        letter-spacing: 2px;
+        color: gray;
+    }
+
+    h2 {
+        font-size: 18px;
+        text-align: left;
+        /*font-family: 'Architects Daughter', cursive;*/
+        font-family: 'Space Mono', monospace;
+        letter-spacing: 5px;
+        color: gray;
+    }
+
+    .Skills {
+        font-size: 12px;
+        text-align: left;
+        /*font-family: 'Architects Daughter', cursive;*/
+        font-family: 'Space Mono', monospace;
+        letter-spacing: 2px;
+        color: black;
+    }
+
+    h3 {
+        font-size: 14px;
+        text-align: left;
+        /*font-family: 'Architects Daughter', cursive;*/
+        font-family: 'Space Mono', monospace;
+        letter-spacing: 5px;
+        color: gray;
+    }
+
+    .time {
+        font-size: 12px;
+        text-align: left;
+        /*font-family: 'Architects Daughter', cursive;*/
+        font-family: 'Space Mono', monospace;
+        letter-spacing: 2px;
+        color: black;
+    }
+
+    .points {
+        font-size: 12px;
+        text-align: left;
+        /*font-family: 'Architects Daughter', cursive;*/
+        font-family: 'Space Mono', monospace;
+        letter-spacing: 2px;
+        color: black;
+    }
+{
+
+}
+
+@media print {
+    body {
+        /*background-color: #F1F9F1;*/
+        background-image: none;
+        font-family: sans-serif;
+        background-color: transparent;
+    }
+
+    h1 {
+        /*font-family: 'Girassol', cursive;*/
+        font-size: 12px;
+        text-align: center;
+        font-weight: normal; /*bolder, light, lighter, 200*/
+        font-variant: small-caps;
+        color: #fff; /*rgb  #ffffff*/
+        background-color: transparent;
+        font-style: normal;
+        letter-spacing: 10px;
+    }
+
+}

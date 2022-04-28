@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calgary Crime Stats</title>
+    <script src="script3.js"></script>
+    <link rel="stylesheet" href="styleDataset.css">
+</head>
+<body>
+<div id="container">
+    <a href="dataset2.html" class="previous">&laquo; Previous</a>
+    <a href="dataset4.html" class="next">Next &raquo;</a>
+    <h1>Calgary Crime Stats</h1>
+    <div id="Search Area">
+        <span>Search By:</span>
+        <select name="searchOption" id="searchOption">
+            <option value="Community"> Community</option>
+            <option value="Quadrant"> Quadrant</option>
+            <option value="Year">Year</option>
+            <option value="Category"> Category </option>
+        </select>
+        <span>Input:</span>
+        <input type="text" id="input">
+    </div>
+    <div id="area">
+        <table id="table">
+            <thead>
+            <th scope="col">Community</th>
+            <th scope="col">Quadrant</th>
+            <th scope="col">Year</th>
+            <th scope="col">Category</th>
+            <th scope="col">Location</th>
+
+
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

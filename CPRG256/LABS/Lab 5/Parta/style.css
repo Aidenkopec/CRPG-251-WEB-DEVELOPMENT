@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    padding-top: 250px;
+    background-color: bisque;
+
+}
+
+form {
+
+    padding: 2px;
+    border: 5px solid #474747;
+    border-radius: 4px;
+
+    display: inline-flex;
+
+}
+
+table{
+
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2096e0;
+    background-color: lightgrey;
+}
+ .container{
+     padding-top: 20px;
+ }
+ .styling{
+     color: #2096e0;
+     font-weight: bolder;
+     text-align: center;
+     font-size: 18px;
+
+ }

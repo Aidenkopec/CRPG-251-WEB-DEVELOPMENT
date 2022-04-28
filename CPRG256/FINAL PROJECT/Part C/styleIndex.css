@@ -1,0 +1,111 @@
+body {
+    /*background-color: #dfe9f3;*/
+    background-image: url("Images/background1.webp");
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding-top: 5px;
+}
+
+#date {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+
+#logo {
+    width: 100%;
+    position: fixed;
+
+}
+
+
+.slides {
+    display: none;
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow {
+    position: relative;
+    margin: auto;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: -8px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    background-color: #DFE3E6;
+
+
+}
+
+
+a {
+    text-decoration: underline;
+
+
+}
+
+.copyright {
+    text-align: left;
+    /*padding-left: 5px;*/
+    font-size: 11px;
+
+}
+
+
+@media only screen and (max-width: 350px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+
+

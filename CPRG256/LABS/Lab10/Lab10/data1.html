@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collisions</title>
+    <script src="script1.js"></script>
+    <link rel="stylesheet" href="styleIndex.css">
+
+</head>
+<body>
+
+<div id="container">
+    <h1>New York Collisions</h1>
+    <div id="Search Area">
+        <span>Search By:</span>
+        <select name="searchOption" id="searchOption">
+            <option value="Vehicle"> Vehicle Type</option>
+            <option value="Collision"> Collision ID</option>
+        </select>
+        <span>Input:</span>
+        <input type="text" id="input">
+    </div>
+    <div id="area">
+        <table id="table">
+            <thead>
+            <th scope="col"> Vehicle Type</th>
+            <th scope="col"> Collision ID</th>
+            <th scope="col"> Crash Time</th>
+            <th scope="col">Location</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

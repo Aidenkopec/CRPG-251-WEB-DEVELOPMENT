@@ -1,0 +1,88 @@
+<!--IMG SRC https://www.google.com/search?q=smiley+face&sxsrf=APq-WBtr2zeq-n7TR0VbBH-3YbnI9kVRKQ:1644436698825&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjswaeKtPP1AhWfIjQIHbe3D3kQ_AUoAXoECAEQAw&biw=958&bih=957&dpr=1#imgrc=bTaCQ7fEdFAt4M-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link href="style.css" rel="stylesheet" text="text/css"/>
+
+
+    <script>
+        function convert() {
+
+            var a = document.frm.operation.value;  // go to FORM (frm) them the value of OP and read it (value)
+            var b = parseInt(document.frm.first_value.value);
+            switch (a) {
+                case "L-G": {
+                    var res = (b / 4.546).toFixed(2);
+                    document.frm.res.value = res;
+                    break;
+                }
+                case "G-L": {
+                    var res = (b * 4.546).toFixed(2);
+
+                    document.frm.res.value = res;
+                    break;
+                }
+                case "M-F": {
+                    var res = (b * 3.28084).toFixed(2);
+                    document.frm.res.value = res;
+                    break;
+                }
+                case "F-M": {
+                    var res = (b / 3.28084).toFixed(2);
+                    document.frm.res.value = res;
+                    break;
+                }
+                case "SQM-F": {
+                    var res = (b * 10.7639).toFixed(2);
+                    document.frm.res.value = res;
+                    break;
+                }
+            }
+
+
+        }
+    </script>
+
+</head>
+<body>
+
+<form name="frm">
+    <table>
+        <tr>
+            <td>Value</td>
+            <td><input type="text" name="first_value"/></td>
+        </tr>
+        <tr>
+            <td class="Conversion">Conversion</td>
+            <td><select name="operation">
+                <option>Select conversion</option>
+                <option value="L-G">Liters to Gallons</option>
+                <option value="G-L">Gallons to Liters</option>
+                <option value="M-F">Metres to Feet</option>
+                <option value="F-M">Feet to Metres</option>
+                <option value="SQM-F">Square Metres to Feet</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td><input type="text" name="res"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="Result" onClick="convert()"/></td>
+        </tr>
+    </table>
+
+
+</form>
+<div class="container">
+
+    <img src="GettyImages-868643608.jpg" alt="Smiley Face" style="width:15%">
+    <figcaption class="styling">
+        Smiles For Conversions
+    </figcaption>
+</div>
+</body>
+</html>

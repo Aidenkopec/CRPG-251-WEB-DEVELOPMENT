@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration.html</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Condensed:ital@1&family=Space+Mono&display=swap"
+          rel="stylesheet">
+    <link href="Form.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<h1>Registration Form:</h1>
+
+<form action="mailto:http://localhost/registrationform.html" method="post" enctype="text/plain">
+
+    <div>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="" pattern="[A-Za-z -]+$}"
+               maxlength="25"
+               placeholder="Enter your name here">
+    </div>
+
+    <div>
+        <label for="Address">Address:</label>
+        <input type="text" id="Address" name="Address"
+               placeholder="Enter Address">
+    </div>
+
+    <div>
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"
+               placeholder="000-000-0000" >
+    </div>
+
+    <div>
+        <label for="Age">Age:</label>
+        <input type="number" size="4" id="Age" min="12" name="p4" name="Age"
+               placeholder="0">
+    </div>
+
+    <div>
+        <label for="email_contact">Email Contact:</label>
+        <input type="email" id="email_contact" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+               placeholder="abc@example.com" name="email_contact">
+    </div>
+    <div>
+        <label for="Registration_date">Registration_date:</label>
+        <input type="datetime-local"
+               id="Registration_date" name="Registration_date">
+
+    </div>
+
+    <div>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </div>
+
+</form>
+
+
+</body>
+</html>

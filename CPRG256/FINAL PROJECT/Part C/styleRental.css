@@ -1,0 +1,119 @@
+body {
+
+    font-family: 'Abel', sans-serif;
+    background-color: #dfe9f3;
+
+}
+
+#logo {
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    margin: auto;
+
+}
+
+#date{
+    font-size: 24px;
+}
+
+#Display_Boxes {
+    padding-top: 21px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#Client_Box {
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 50em;
+    width: 30%;
+    margin: auto;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    color: black;
+    border: 3px solid black;
+}
+
+#Client_List {
+    width: 100%;
+}
+
+#Form_Box {
+    padding-left: 2em;
+    padding-right: 3em;
+    height: 50em;
+    width: 100%;
+    margin: auto;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    color: black;
+    border: 3px solid black;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+}
+
+
+#Car_Selector {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    padding-top: 35px;
+}
+
+
+
+#Client_Info tr td:first-child {
+    width: 15%;
+    text-align: right;
+}
+
+#Client_Info tr td:nth-child(2) input {
+    width: 80%;
+}
+
+#Addons tr td:first-child {
+    text-align: right;
+}
+
+#Addons tr td:nth-child(2) {
+    text-align: center;
+}
+
+#Addons tr td:nth-child(3) {
+    text-align: left;
+}
+
+#duration_table tr td:first-child {
+    text-align: center;
+}
+
+#duration_table tr td:nth-child(2) {
+    text-align: left;
+}
+
+
+img {
+    width: 70px;
+    height: 35px;
+}
+
+@media only screen and (max-width: 350px) {
+    .text {
+        font-size: 11px
+    }
+}
+

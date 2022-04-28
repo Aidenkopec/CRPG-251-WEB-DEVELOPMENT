@@ -1,0 +1,112 @@
+<!--LOGO IMG SRC: https://www.google.com/search?q=c740baa07dfcc374715ba674e78ae07e&sxsrf=APq-WBvg-UXandwxT90M26CGuXpH6aCXYw:1648599515558&tbm=isch&source=iu&ictx=1&vet=1&fir=v-8em4ouTSxndM%252CVwPsbhFuWHjzeM%252C_%253B8aus_QX-HSVEjM%252CBl65rdeuiHXhKM%252C_%253B9-adoI4ujCJpSM%252CC3a_FX5sy4AAjM%252C_%253B512feuzTycJcNM%252CC3a_FX5sy4AAjM%252C_%253BhfEdtFubTHOOrM%252CC3a_FX5sy4AAjM%252C_%253BT3AIVqXJeSWayM%252CaHxdj_tyWUCWwM%252C_%253BVaPovEsDLfza4M%252CC3a_FX5sy4AAjM%252C_%253BWjP1eQPs9ztanM%252CaHxdj_tyWUCWwM%252C_%253BNaj4d9e0TF5XNM%252CC3a_FX5sy4AAjM%252C_%253BwW5rkRnkpFsWQM%252CaHxdj_tyWUCWwM%252C_&usg=AI4_-kSmXudpLLq60cM3tHyekMGhnQHuuw&sa=X&ved=2ahUKEwjFqoHkx-z2AhWVJTQIHbWnBoEQ9QF6BAgDEAE#imgrc=v-8em4ouTSxndM-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Living Earth Landscapes</title>
+</head>
+<body>
+<div id="Main_Content_Area">
+    <div id="Title_Area">
+        <h1 id="title">Living Earth Landscapes </h1>
+        <img src="images/c740baa07dfcc374715ba674e78ae07e.jpg" id="logo" alt="Logo">
+    </div>
+    <div id="Order_Page">
+        <form id="Customer_Form" onsubmit="onSubmit();return false;">
+            <h2>Customer Information</h2>
+            <table class="Customer_Table">
+                <tr>
+                    <td class="info"><label class="Field">First Name</label></td>
+                    <td class="InfoInputBox"><label for="fName"></label><input id="fName" type="text"
+                                                                               pattern="^[A-Za-z -]+" autofocus
+                                                                               required>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td class="info"><label class="Field">Last Name</label></td>
+                    <td class="InfoInputBox"><label for="lName"></label><input id="lName" type="text"
+                                                                               pattern="^[A-Za-z -]+" required></td>
+                </tr>
+                <tr>
+                    <td class="info"><label class="Field">Street Address</label></td>
+                    <td class="InfoInputBox"><label for="address"></label><input id="address" type="text" required></td>
+                </tr>
+                <tr>
+                    <td class="info"><label class="Field">Postal Code</label></td>
+                    <td class="InfoInputBox"><label for="pCode"></label><input id="pCode" type="text"
+                                                                               placeholder="A9A9A9"
+                                                                               pattern="[A-Z][0-9][A-Z][0-9][A-Z][0-9]"
+                                                                               required>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td class="info"><label class="Field">Phone Number</label></td>
+                    <td class="InfoInputBox"><label for="phone"></label><input id="phone" type="tel"
+                                                                               placeholder="709-330-0309"
+                                                                               pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"
+                                                                               required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="info"><label class="Field">Email</label></td>
+                    <td class="InfoInputBox"><label for="email"></label><input id="email" type="email"
+                                                                               placeholder="someone@me.com" required>
+                    </td>
+                </tr>
+            </table>
+
+
+            <h2>Planter Information</h2>
+            <table id="Planter_Selection">
+                <tr>
+                    <td><label class="Field">Planter Shape</label></td>
+                    <td><label>Square/Rectangle Planter</label></td>
+                    <td><label for="square"></label><input type="radio" id="square" name="planter" value="square"
+                                                           onchange="updatePlanterSelection()" checked></td>
+                    <td><label>Flat Bottomed Cylinders</label></td>
+                    <td><label for="cylinder"></label><input type="radio" id="cylinder" name="planter" value="cylinder"
+                                                             onchange="updatePlanterSelection()"></td>
+                </tr>
+                <tr>
+                    <td><label class="Field">Planter Shape</label></td>
+                    <td><label>1/2 Spherical</label></td>
+                    <td><label for="sphere"></label><input type="radio" id="sphere" name="planter" value="sphere"
+                                                           onchange="updatePlanterSelection()" checked></td>
+
+                    <td><label>Truncated cone </label></td>
+                    <td><label for="cone"></label><input type="radio" id="cone" name="planter" value="cone"
+                                                         onchange="updatePlanterSelection()">
+                    </td>
+                </tr>
+            </table>
+            <div id="Planter_Form">
+
+            </div>
+            <h2 id="Current_Volume"> Volume of Planter in cubic centimetres: </h2>
+            <h2 id="Current_Total"> Cost of Planter: </h2>
+            <table id="buttons">
+                <tr>
+                    <td><input id="submit" class="Button" type="reset"></td>
+                    <td><input id="reset" class="Button" type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="Invoice_Page">
+        <p id="Customer_Info"></p>
+        <table id="Invoice_Table">
+        </table>
+    </div>
+</div>
+</body>
+</html>
+
+

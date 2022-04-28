@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Lookup </title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="ClientData.json"></script>
+
+</head>
+<body>
+<div class="Container">
+    <h1>Client Lookup ¯\_(ツ)_/¯</h1>
+    <div id="Search">
+        <span>Search By:</span>
+        <label for="searchOption"></label><select name="searchOption" id="searchOption">
+            <option value="id"> Client ID</option>
+            <option value="lastName"> Client Last Name</option>
+            <option value="phone"> Client Phone</option>
+        </select>
+        <span>Value:</span>
+        <label for="input"></label><input type="text" id="input">
+    </div>
+    <div class="Table">
+        <table id="table">
+            <thead>
+            <th scope="col"> ID</th>
+            <th scope="col"> First Name</th>
+            <th scope="col"> Last Name</th>
+            <th scope="col"> Address</th>
+            <th scope="col"> Postal Code</th>
+            <th scope="col"> Phone</th>
+            <th scope="col"> Type</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

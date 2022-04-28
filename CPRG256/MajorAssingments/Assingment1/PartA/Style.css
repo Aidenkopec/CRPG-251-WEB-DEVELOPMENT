@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fira+Sans:ital,wght@1,300&family=Roboto+Condensed:ital@1&family=Slabo+27px&family=Space+Mono&family=Titillium+Web:wght@300&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+
+}
+
+article {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+div.picture {
+
+    height: 600px;
+
+    background-color: black;
+    margin-bottom: 60px;
+
+
+}
+
+div.container {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+
+
+blockquote {
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-bottom: 85px;
+    width: 15%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-style: double;;
+    border-width: 5px;
+    border-color: grey;
+    float: right;
+    position: relative;
+    top: 45px;
+
+
+    background-color: black;
+    display: block;
+}
+
+.quote {
+    color: white;
+    font-family: 'Slabo 27px', serif;
+    font-size: 15px;
+
+}
+
+.quote1 {
+    color: white;
+
+    padding-left: 50px;
+    /*padding: 0.5em 0.5em  1.8em;*/
+    font-family: 'Slabo 27px', serif;
+    font-size: 11px;
+
+
+}
+
+.quote::selection {
+    color: lightgrey;
+}
+
+.quote1::selection {
+    color: lightgrey;
+}
+
+h4 {
+    float: right;
+
+}
+
+.top-table {
+    background-color: black;
+    color: white;
+    /*width: 40%;*/
+}
+
+aside.values {
+    float: right;
+    background-color: white;
+    border: black;
+
+}
+
+.table {
+    float: right;
+    padding-right: 30px;
+    padding-left: 110px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+
+
+}
+
+.table_caption {
+    width: 70%;
+    font-size: 16px;
+    font-weight: bolder;
+    word-wrap: break-word;
+    text-align: center;
+    margin-left: 30px;
+}
+
+table, th {
+
+    border-collapse: collapse;
+}
+
+th, td {
+
+    padding: 3%;
+
+
+}
+
+.type {
+    width: 60px;
+}
+
+a.link {
+    color: blue;
+}
+
+a.link1 {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+    list-style: none;
+    font-size: small;
+
+}
+
+p.blank {
+    background-color: black;
+    display: block;
+}
+
+@media screen and (max-width: 550px) {
+
+
+    body {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    div.picture {
+
+        height: 220px;
+        padding-bottom: 50px;
+        background-color: black;
+        margin-bottom: 30px;
+
+
+    }
+
+    div.container {
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+
+    }
+
+    article {
+        width: 80%;
+        height: 90%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    blockquote {
+        /*padding-bottom: 90px;*/
+        width: 40%;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        border-style: double;
+        border-width: 3px;
+        border-color: grey;
+        float: right;
+        margin: 60px 2.7% 30%;
+
+
+        background-color: black;
+        display: block;
+    }
+
+    .quote {
+        color: white;
+        font-family: 'Slabo 27px', serif;
+
+
+    }
+
+    .quote1 {
+        color: white;
+
+        padding: 0.5em 0.5em 0em 1.8em;
+        font-family: 'Slabo 27px', serif;
+
+
+    }
+
+    .quote::selection {
+        color: lightgrey;
+    }
+
+    .quote1::selection {
+        color: lightgrey;
+    }
+
+    h4 {
+        float: right;
+    }
+
+    .top-table {
+        background-color: black;
+        color: white;
+        /*width: 20%;*/
+    }
+
+    aside.values {
+        float: right;
+        background-color: white;
+        border: black;
+
+    }
+
+    .table {
+        float: right;
+        padding-bottom: 45px;
+        padding-left: 20px;
+
+    }
+
+    .table_caption {
+
+        font-size: 12px;
+        font-weight: bolder;
+        padding-left: 10px;
+        word-wrap: break-word;
+        text-align: center;
+
+
+    }
+
+    table, th {
+
+        border-collapse: collapse;
+    }
+
+    th, td {
+
+        padding: 8%;
+
+
+    }
+
+    .type {
+        width: 15px;
+    }
+
+    a.link {
+        color: blue;
+    }
+
+    a.link1 {
+        text-decoration: none;
+        font-style: italic;
+        color: black;
+        list-style: none;
+        font-size: small;
+
+    }
+
+    p.blank {
+        background-color: black;
+        display: block;
+    }
+
+}
+
+
+/*@media screen and (max-width: 350px) {*/
+
+/*    body {*/
+/*        font-family: 'Fira Sans', sans-serif;*/
+/*        font-size: 14px;*/
+/*        font-weight: 600;*/
+/*    }*/
+
+/*    div.picture {*/
+
+/*        height: 220px;*/
+/*        padding-bottom: 50px;*/
+/*        background-color: black;*/
+/*        margin-bottom: 30px;*/
+
+
+/*    }*/
+
+/*    div.container {*/
+/*        text-align: center;*/
+/*        color: pink;*/
+/*        font-weight: bolder;*/
+/*        font-size: 30px;*/
+
+/*    }*/
+
+/*    article {*/
+/*        width: 80%;*/
+/*        height: 90%;*/
+/*        margin: auto;*/
+/*    }*/
+
+/*    h2 {*/
+/*        font-size: 20px;*/
+/*        font-weight: bold;*/
+/*    }*/
+
+/*    blockquote {*/
+/*        !*padding-bottom: 90px;*!*/
+/*        width: 40%;*/
+/*        padding-left: 10px;*/
+/*        padding-bottom: 20px;*/
+/*        border-style: double;*/
+/*        border-width: 3px;*/
+/*        border-color: grey;*/
+/*        float: right;*/
+/*        margin: 60px 2.7% 30%;*/
+
+
+/*        background-color: black;*/
+/*        display: block;*/
+/*    }*/
+
+/*    .quote {*/
+/*        color: white;*/
+/*        font-family: 'Slabo 27px', serif;*/
+
+
+/*    }*/
+
+/*    .quote1 {*/
+/*        color: white;*/
+
+/*        padding: 0.5em 0.5em 0em 1.8em;*/
+/*        font-family: 'Slabo 27px', serif;*/
+
+
+/*    }*/
+
+/*    .quote::selection {*/
+/*        color: lightgrey;*/
+/*    }*/
+
+/*    .quote1::selection {*/
+/*        color: lightgrey;*/
+/*    }*/
+
+/*    h4 {*/
+/*        float: right;*/
+/*    }*/
+
+/*    .top-table {*/
+/*        background-color: black;*/
+/*        color: white;*/
+/*        !*width: 20%;*!*/
+/*    }*/
+
+/*    aside.values {*/
+/*        float: right;*/
+/*        background-color: white;*/
+/*        border: black;*/
+
+/*    }*/
+
+/*    .table {*/
+/*        float: right;*/
+
+/*    }*/
+
+/*    .table_caption {*/
+/*        !*width: 40%;*!*/
+/*        font-size: 12px;*/
+/*        font-weight: bolder;*/
+/*        padding-left: 10px;*/
+/*        word-wrap: break-word;*/
+/*        text-align: center;*/
+
+
+/*        !*padding-right: 50%;*!*/
+/*    }*/
+
+/*    table, th {*/
+
+/*        border-collapse: collapse;*/
+/*    }*/
+
+/*    th, td {*/
+
+/*        padding: 8%;*/
+
+/*    }*/
+
+/*    .type {*/
+/*        width: 15px;*/
+/*    }*/
+
+/*    a.link {*/
+/*        color: blue;*/
+/*    }*/
+
+/*    a.link1 {*/
+/*        text-decoration: none;*/
+/*        font-style: italic;*/
+/*        color: black;*/
+/*        list-style: none;*/
+/*        font-size: small;*/
+
+/*    }*/
+
+/*    p.blank {*/
+/*        background-color: black;*/
+/*        display: block;*/
+/*    }*/
+
+/*}*/
+
+

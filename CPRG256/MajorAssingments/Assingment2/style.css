@@ -1,0 +1,143 @@
+body {
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    font-size: 120%;
+
+}
+
+#Title_Area {
+    text-align: center;
+    height: 5em;
+    font-size: 170%;
+}
+
+#title {
+    display: inline-block;
+}
+
+#logo {
+    padding-top: 5px;
+    display: inline-block;
+    width: 60px;
+    height: 80px;
+    position: relative;
+    top: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.Customer_Table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.InfoInputBox {
+    width: 80%;
+}
+
+.InfoInputBox input {
+    width: 80%;
+}
+
+#pCode {
+    width: 110px;
+    margin-left: 9.15%;
+    float: left;
+}
+
+#phone {
+    width: 110px;
+    margin-left: 9.15%;
+    float: left;
+}
+
+#fName {
+    width: 200px;
+    margin-left: 9.15%;
+    float: left;
+}
+
+#lName {
+    width: 200px;
+    margin-left: 9.15%;
+    float: left;
+}
+
+#Planter_Selection {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#Square_Planter_Table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#Cone_Planter_Table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#Sphere_Planter_Table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#Cylinder_Planter_Table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#Layers_Table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#Extras {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.Field {
+    font-weight: bolder;
+}
+
+#buttons {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.Button {
+    width: 30%;
+}
+
+#Invoice_Page {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+

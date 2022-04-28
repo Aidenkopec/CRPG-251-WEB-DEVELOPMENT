@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calgary Building Permits</title>
+    <script src="script4.js"></script>
+    <link rel="stylesheet" href="styleDataset.css">
+</head>
+<body>
+<div id="container">
+    <a href="dataset3.html" class="previous">&laquo; Previous</a>
+    <a href="index.html" class="next">Next &raquo;</a>
+    <h1>Calgary Building Permits</h1>
+    <div id="Search Area">
+        <span>Search By:</span>
+        <select name="searchOption" id="searchOption">
+            <option value="Permit Number"> Permit Number</option>
+            <option value="Description"> Description</option>
+            <option value="Contractor-Name">Contractor Name </option>
+            <option value="Address"> Address </option>
+        </select>
+        <span>Input:</span>
+        <input type="text" id="input">
+    </div>
+    <div id="area">
+        <table id="table">
+            <thead>
+            <th scope="col"> Permit Number</th>
+            <th scope="col">Description</th>
+            <th scope="col">Contractor Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Location</th>
+
+
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

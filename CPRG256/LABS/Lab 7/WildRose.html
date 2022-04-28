@@ -1,0 +1,160 @@
+<!--IMG-->
+<!--https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg-->
+<!--LOGO-->
+<!--https://i.pinimg.com/originals/0c/20/f3/0c20f31194a669da93f41c15160ce433.jpg-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wild Rose Country Finance</title>
+    <link href="WildStyle.css" rel="stylesheet" text="text/css"/>
+
+    <script src="WildJava.js"></script>
+
+</head>
+<body>
+<div>
+    <h1>Wild Rose Country Finance
+        <img src="0c20f31194a669da93f41c15160ce433.jpg">
+
+    </h1>
+
+    <form id="register" onsubmit="infoArray();return false">
+
+        <div id="container">
+        </div>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date-start"
+               value="2022-03-17"
+               min="2018-01-01" max="2031-12-31">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" pattern="[a-zA-Z\-\s]+" autofocus
+                   maxlength="25"
+                   placeholder="Enter your name here" required>
+        </div>
+
+
+        <div>
+            <label for="Address">Address:</label>
+            <input type="text" id="address" name="Address" size="50" required
+                   placeholder="Enter Address">
+        </div>
+
+        <div>
+            <label for="postalCode">Postal Code:</label>
+            <input type="text" id="postalCode" name="pCode" placeholder="Enter Postal Code"
+                   pattern="[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]"
+                   required>
+
+
+        </div>
+
+        <div>
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phone_number" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"
+                   placeholder="000-000-0000" required>
+        </div>
+
+
+        <div>
+            <label for="email">Email Contact:</label>
+            <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                   placeholder="abc@example.com" name="email_contact" required>
+        </div>
+
+
+        <h3>Please Enter The Following Information.</h3>
+
+
+        <ul>
+            <li>
+                <span class="header">Are you a current client? </span>
+                <br>
+                <label for="yes">Yes</label><input class="choice" type="radio" name="client" id="yes">
+                <label for="no">No</label><input class="choice" type="radio" name="client" id="no">
+
+            </li>
+            <br>
+            <li>
+                <span class="header">What is your gender? </span>
+                <br>
+                <label for="male">Male</label><input class="choice" type="radio" name="gender" id="male">
+                <label for="female">Female</label><input class="choice" type="radio" name="gender" id="female">
+
+            </li>
+
+            <br>
+
+            <li>
+                <span class="header">Do you own or rent a home ? </span>
+                <br>
+                <label for="own">Own</label><input class="choice" type="radio" name="residence" id="own">
+                <label for="rent">Rent</label><input class="choice" type="radio" name="residence" id="rent">
+
+            </li>
+            <br>
+
+            <li>
+                <span class="header">Current Age (min 18)</span>
+                <input class="num" type="number" name="age" id="age" min="18">
+            </li>
+            <br>
+
+            <li>
+                <span class="header">What is your annual gross income? </span>
+                <input class="num" type="number" name="income" id="income" min="0">
+            </li>
+        </ul>
+        <br>
+        <h3>Do you have any of the following?</h3>
+        <ul>
+            <li>
+                <input type="checkbox" id="Vehicle" name="Vehicle"
+                       value=0>
+                <label for="Vehicle">Vehicle</label><br>
+            </li>
+
+            <li>
+                <input type="checkbox" id="RRSP" name="RRSP"
+                       value=0>
+                <label for="RRSP">RRSP</label><br>
+            </li>
+
+
+            <li>
+                <input type="checkbox" id="TFSA" name="TFSA"
+                       value=0>
+                <label for="TFSA">TFSA</label><br>
+            </li>
+
+
+            <li>
+                <input type="checkbox" id="RRIF" name="RRIF"
+                       value=0>
+                <label for="RRIF">RRIF</label><br>
+            </li>
+
+        </ul>
+
+
+        <div class="submit">
+            <ul class="checkout">
+                <br>
+                <input type="submit" value="Send">
+                <input type="button" value="Delete" disabled="true"
+                       onclick="deleteItem(); return false">
+            </ul>
+        </div>
+
+    </form>
+
+</div>
+<h3><span id="info"></span></h3>
+
+
+</div>
+</body>
+</html>

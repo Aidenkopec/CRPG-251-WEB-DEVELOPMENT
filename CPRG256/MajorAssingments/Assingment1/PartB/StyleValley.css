@@ -1,0 +1,84 @@
+/*<!--IMG SRC - https://www.google.com/search?q=valley+farms&sxsrf=APq-WBvVwr3GOCShB8-eEQK_uevzJUDkmQ:1645207297514&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjI7LLk6on2AhUuCTQIHQFjABQQ_AUoAnoECAIQBA&biw=1920&bih=975&dpr=1#imgrc=5vCSY1uzXV1zfM-->*/
+
+
+div {
+    margin: auto;
+    text-align: center;
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-size: 24px;
+
+}
+
+label {
+
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #474747;
+
+
+}
+
+.container {
+
+    background-color: white;
+    text-align: left;
+
+}
+
+.price {
+    list-style-type: none;
+
+}
+
+.price .header {
+    background-color: #111;
+    color: #ffffff;
+    font-size: 24px;
+    width: 300px;
+    margin: auto;
+
+}
+
+.price li {
+    padding: 8px;
+
+}
+
+.price .grey {
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+
+}
+
+
+.input {
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    width: 300px;
+    padding-left: 50px;
+    margin: auto;
+}
+
+input[type=submit] {
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+}
+
+input[type=reset] {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: left;
+}
